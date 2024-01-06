@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+:root {
+    --primary-color: rgb(17, 86, 102);
+    --primary-color-darker: rgb(9, 48, 56);
+}
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open ,sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 640px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px; 
+}
+
+button {
+    
+    margin: 15px 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #CDDDE8;
+    border: 2px solid transparent;
+    color: #FFF;
+    text-align: center;
+    padding-left: 5px;
+    color: #272020;
+    cursor: pointer;
+    transition: .5s;
+    
+  }
+
+button:hover{
+
+    background-color:  rgb(17, 86, 102);
+    color: #FFF;
+}
+
+.relogio {
+    font-size: 3em ;
+}
+
+.pausado {
+    color: red;
+}
